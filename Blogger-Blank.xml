@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' b:js='false' b:css='false' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='https://www.google.com/2005/gml/b' xmlns:data='https://www.google.com/2005/gml/data' xmlns:expr='https://www.google.com/2005/gml/expr'> 
+  <head>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/> 
+    <b:if cond='data:blog.isMobile'> 
+      <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/> 
+    <b:else/> 
+      <meta content='width=1100' name='viewport'/> 
+    </b:if> 
+    <b:include data='blog' name='all-head-content'/> 
+    <title><data:blog.pageTitle/></title>
+   <b:skin><![CDATA[/*
+-------------------------------------------------------------
+//////// HTML BLANK TEMPLATE CREATED BY : SvTre.com /////////
+-------------------------------------------------------------
+]]></b:skin>
+   
+  </head>
+  <body>
+    <center><h1>Blank Blogger Template</h1></center>
+
+<b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'/>	
+<b:section class='main' id='main' showaddelement='no'><b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/></b:section>
+
+<!--Please keep the Credits intact-->
+<center><p class='author'><b>&#169; 2020 <a href='https://vntim.blogspot.com'>VnTim</a>&#8482;</b> Collaboration with <a href='https://kami.vn'>KAMI </a></p></center>
+  </body> 
+</html>
