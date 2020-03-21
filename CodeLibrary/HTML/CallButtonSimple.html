@@ -1,0 +1,20 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+.hotline-fixed {color: #fff;border-radius: 50px;position: fixed;height: 60px;overflow: hidden;line-height: 1.2;text-align: center;padding-left: 30px;z-index: 9999;width: 60px;top: 50%;transform: translateY(-50%);right: 10px;-webkit-animation: wrench 2.5s ease infinite;animation: wrench 2.5s ease infinite;transform-origin-x: 90%;transform-origin-y: 35%;transform-origin-z: initial;}
+.hotline-fixed a:before {background: #5fb435;width: 50px;height: 50px;display: block;position: absolute;border-radius: 50px;left: 5px;top: 5px;font: normal normal normal 14px/1 FontAwesome;font-size: inherit;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;content: "\f232";text-align: center;line-height: 1.5;font-size: 33px;color: #fff;}
+@-webkit-keyframes wrench {
+	0% { -webkit-transform: rotate(-12deg); transform: rotate(-12deg) }
+	8% { -webkit-transform: rotate(12deg); transform: rotate(12deg) }
+	10%, 28%, 30%, 48%, 50%, 68% { -webkit-transform: rotate(24deg); transform: rotate(24deg) }
+	18%, 20%, 38%, 40%, 58%, 60% { -webkit-transform: rotate(-24deg); transform: rotate(-24deg) }
+	100%, 75% { -webkit-transform: rotate(0); transform: rotate(0) }
+}
+@keyframes wrench {
+	0% { -webkit-transform: rotate(-12deg); -ms-transform: rotate(-12deg); transform: rotate(-12deg) }
+	8% { -webkit-transform: rotate(12deg); -ms-transform: rotate(12deg); transform: rotate(12deg) }
+	10%, 28%, 30%, 48%, 50%, 68% { -webkit-transform: rotate(24deg); -ms-transform: rotate(24deg); transform: rotate(24deg) }
+	18%, 20%, 38%, 40%, 58%, 60% { -webkit-transform: rotate(-24deg); -ms-transform: rotate(-24deg); transform: rotate(-24deg) }
+	100%, 75% { -webkit-transform: rotate(0); -ms-transform: rotate(0); transform: rotate(0) }
+}
+</style>
+<div class="hotline-fixed"><a href="tel:0988999020" title="Hotline" class="hotline"></a></div>
