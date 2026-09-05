@@ -2398,17 +2398,14 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Right Call to Action
         <b:section class='sidebar vtrick-pro-widget-ready' id='sidebar' name='Sidebar' showaddelement='yes'>
           <b:widget id='HTML2' locked='false' title='{ads}' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<div style="background:var(--content-bg);padding:0.5rem;border-radius:8px">
-<a style="height:100%;border:none;box-shadow:var(--card-shadow)" class="ads-here entry-image-wrap" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigQVyPXPEHpjqZ-bRd9TtPQxjSTy86P8ZrvfAaxYRFHTLsNuGltPPxFX4muaHIUWREGDVl69LftgjwfWK36CuQvsiJTpTpFNUgr3El8fyHZ7OS0_ef8drMNS7T2kf0_SQPlN2IYQiZV85q2ejH5bY8WrypaROXNaUxJDh8pFUvm80puuY9GQLUOFhjuts/s320/KmeStudioED.png" viewbox="0 0 16 9"/></a>
+              <b:widget-setting name='content'>&lt;div style=&quot;background:var(--content-bg);padding:0.5rem;border-radius:8px&quot;&gt;
+&lt;a style=&quot;height:100%;border:none;box-shadow:var(--card-shadow)&quot; class=&quot;ads-here entry-image-wrap&quot; href=&quot;https://komestudio.com/&quot; &gt;&lt;svg class=&quot;entry-thumb&quot; data-image=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigQVyPXPEHpjqZ-bRd9TtPQxjSTy86P8ZrvfAaxYRFHTLsNuGltPPxFX4muaHIUWREGDVl69LftgjwfWK36CuQvsiJTpTpFNUgr3El8fyHZ7OS0_ef8drMNS7T2kf0_SQPlN2IYQiZV85q2ejH5bY8WrypaROXNaUxJDh8pFUvm80puuY9GQLUOFhjuts/s320/KmeStudioED.png&quot; viewBox=&quot;0 0 16 9&quot;/&gt;&lt;/a&gt;
 
-<div style="padding:1rem 1rem 0.5rem">
-<span style="
-    font-size: 10px;
-    font-weight: bold;
-    color: #2196f3;
-">SPONSOR</span>
-<p style="font-size:12px"><strong>Kome Studio <i style="color:#2196f3" class="bi bi-check-circle-fill"></i></strong> Play Smile Belong 😊 Building KomeVerse</p>
-</div></div>]]></b:widget-setting>
+&lt;div style=&quot;padding:1rem 1rem 0.5rem&quot;&gt;
+&lt;span style=&quot; font-size: 10px; font-weight: bold; color: #2196f3;
+&quot;&gt;SPONSOR&lt;/span&gt;
+&lt;p style=&quot;font-size:12px&quot;&gt;&lt;strong&gt;Kome Studio &lt;i style=&quot;color:#2196f3&quot; class=&quot;bi bi-check-circle-fill&quot;&gt;&lt;/i&gt;&lt;/strong&gt; Play Smile Belong 😊 Building KomeVerse.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
