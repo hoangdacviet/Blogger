@@ -428,7 +428,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Right Call to Action
     <b:includable id='theme-head'>
       <meta expr:content='&quot;text/html; charset=&quot; + data:blog.encoding' http-equiv='Content-Type'/>
       <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes' name='viewport'/>
-      <title><b:if cond='data:view.isHomepage'><data:view.title.escaped/><b:elseif cond='data:view.isError'/>That page can&#8217;t be found | <data:blog.title/><b:else/> <data:blog.pageName/> | <data:blog.title/> </b:if></title>
+      <title><b:if cond='data:view.isHomepage'>Kome Studio Blog &amp; Devlog<b:elseif cond='data:view.isError'/>That page can&#8217;t be found | <data:blog.title/><b:else/> <data:blog.pageName/> | <data:blog.title/> </b:if></title>
       <link href='//fonts.gstatic.com' rel='dns-prefetch'/>
       <link href='//dnjs.cloudflare.com' rel='dns-prefetch'/>
       <link href='//1.bp.blogspot.com' rel='dns-prefetch'/>
@@ -2854,7 +2854,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Right Call to Action
       </ul>
     </b:includable>
           </b:widget>
-          <b:widget id='ContactForm2' locked='false' title='Contact Us' type='ContactForm' visible='true'>
+          <b:widget id='ContactForm2' locked='false' title='Contact Us' type='ContactForm' visible='false'>
             <b:includable id='main'>
   <b:include name='widget-title'/>
   <b:include name='content'/>
